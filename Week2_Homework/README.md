@@ -18,7 +18,7 @@ VEVWKu - @Chae-Ryeong(Chloe) Yeo
 
 
 
-## Contract Deployment and Interaction on Sepolia Testnet (Report by Aravind ([aravinds2511](https://github.com/Aravinds2511) - 1Lbxcy )
+## Contract Deployment and Interaction on Sepolia Testnet - contract 1
 
 ### 1) Contract creation - Deployed the contract on the sepolia testnet.
 
@@ -99,7 +99,7 @@ npx ts-node --files ./scripts/QueryResults.ts 0xb553C4DF4009a867216b45d6c5199010
 result: The winning proposal is:  arg2 <br> <br>
 
 
-## Report by Ashish ([aashisham](https://github.com/aashisham) - IG8lqp)
+## Contract Deployment and Interaction on Sepolia Testnet - contract 2
 
 
 1.  **Contract creation - Deployed the contract on the sepolia testnet.** <br>
