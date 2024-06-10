@@ -9,12 +9,12 @@ This is a group activity for at least 3 students:
 Assignment Link: https://github.com/Encode-Club-Solidity-Bootcamp/Lesson-08?tab=readme-ov-file#weekend-project
 
 # Group 7 
-Team Members:
-cax8Mr - [addi1402](https://github.com/addi1402)
-1Lbxcy - [Aravinds2511](https://github.com/Aravinds2511)
-Pmo958 - [vermasrijan](https://github.com/vermasrijan)
-IG8lqp - [aashisham](https://github.com/aashisham)
-VEVWKu - @Chae-Ryeong(Chloe) Yeo
+Team Members:  <br> 
+cax8Mr - [addi1402](https://github.com/addi1402) <br>
+1Lbxcy - [Aravinds2511](https://github.com/Aravinds2511) <br>
+Pmo958 - [vermasrijan](https://github.com/vermasrijan) <br>
+IG8lqp - [aashisham](https://github.com/aashisham) <br>
+VEVWKu - @Chae-Ryeong(Chloe) Yeo 
 
 
 
@@ -96,51 +96,51 @@ Transaction confirmed<br>
 npx ts-node --files ./scripts/QueryResults.ts 0xb553C4DF4009a867216b45d6c5199010a7226bca
 ```
 
-result: The winning proposal is:  arg2
+result: The winning proposal is:  arg2 <br> <br>
 
 
 ## Report by Ashish ([aashisham](https://github.com/aashisham) - IG8lqp)
 
 
-1.  **Contract creation - Deployed the contract on the sepolia testnet.**
+1.  **Contract creation - Deployed the contract on the sepolia testnet.** <br>
 Contract address: [0x3536773d2c3e652a6015f60964dec3fb7cf218b4](https://sepolia.etherscan.io/address/0x3536773d2c3e652a6015f60964dec3fb7cf218b4)
 
-    Last block number: `6077938n`
-    Deployer address: `0x36956b321bdd1c78C340c9241d5F870937730208`
-    Deployer balance: 0.061346402631284169 ETH
-    Deploying Ballot contract....
-    Transaction hash: `0xb33335052ecd74092e02e7235aead1c518d41bc4398c3e9556f90f4c8049626d`
-    Ballot contract deployed to: `0x3536773d2c3e652a6015f60964dec3fb7cf218b4`
+    Last block number: `6077938n` <br>
+    Deployer address: `0x36956b321bdd1c78C340c9241d5F870937730208` <br>
+    Deployer balance: 0.061346402631284169 ETH <br>
+    Deploying Ballot contract.... <br>
+    Transaction hash: `0xb33335052ecd74092e02e7235aead1c518d41bc4398c3e9556f90f4c8049626d` <br>
+    Ballot contract deployed to: `0x3536773d2c3e652a6015f60964dec3fb7cf218b4` <br>
 
 
-2.  **Tried to invoke `giveRightToVote` function to give right to address `0x81Afe9cA68acfa0Bf22d46B1EAfC738DE8ECD198` and it was confirmed with success.**
+2.  **Tried to invoke `giveRightToVote` function to give right to address `0x81Afe9cA68acfa0Bf22d46B1EAfC738DE8ECD198` and it was confirmed with success.** <br>
 
-    Address to give `rightToVote`:
-    The address: `0x81Afe9cA68acfa0Bf22d46B1EAfC738DE8ECD198`
-    Transaction hash: `0xcb2294ddfe1c8739ed2836356651599c4deceb5ef128b69f3193a259ccb6006f`
+    Address to give `rightToVote`: <br>
+    The address: `0x81Afe9cA68acfa0Bf22d46B1EAfC738DE8ECD198` <br>
+    Transaction hash: `0xcb2294ddfe1c8739ed2836356651599c4deceb5ef128b69f3193a259ccb6006f` <br>
 
-3.  **Tried to invoke `delegateVote` function to delegate vote (of `0x81Afe9cA68acfa0Bf22d46B1EAfC738DE8ECD198` ) to address `0x36956b321bdd1c78C340c9241d5F870937730208` and it was confirmed with success**
+3.  **Tried to invoke `delegateVote` function to delegate vote (of `0x81Afe9cA68acfa0Bf22d46B1EAfC738DE8ECD198` ) to address `0x36956b321bdd1c78C340c9241d5F870937730208` and it was confirmed with success** <br>
 
-    Address to `delegateVote`:
-    The address: `0x36956b321bdd1c78C340c9241d5F870937730208`
-    Transaction hash: `0x0dc34eb9dac7ccc09fa01843a60ca94e1878e774d9e3d1744ef6f8ecedb22d34`
-
-
-4.  **Tried to invoke `castVote` function to vote for the second proposal(argument: 1) and it was confirmed with success**
-
-    Proposal selected:
-    Voting to proposal arg2
-    Transaction hash: `0x3be2a772caa9317affd9d9defae2af6d572d59ad6b794ed8c0dc044873a2d7ee`
+    Address to `delegateVote`: <br>
+    The address: `0x36956b321bdd1c78C340c9241d5F870937730208` <br>
+    Transaction hash: `0x0dc34eb9dac7ccc09fa01843a60ca94e1878e774d9e3d1744ef6f8ecedb22d34` <br>
 
 
-5.  **Tried to invoke `castVote` function to vote for the third proposal(argument: 2) with same address and it failed with error message “*Already voted*”**
+4.  **Tried to invoke `castVote` function to vote for the second proposal(argument: 1) and it was confirmed with success** <br>
+
+    Proposal selected: <br>
+    Voting to proposal arg2 <br>
+    Transaction hash: `0x3be2a772caa9317affd9d9defae2af6d572d59ad6b794ed8c0dc044873a2d7ee` <br>
+
+
+5.  **Tried to invoke `castVote` function to vote for the third proposal(argument: 2) with same address and it failed with error message “*Already voted*”** <br>
 
     return new TransactionExecutionError(cause, {
     TransactionExecutionError: Execution reverted with reason: Already voted..
     }
-
+   <br>
   
-6.  **Tried to invoke the `winnerName` function to query the winner and it was confirmed.**
+6.  **Tried to invoke the `winnerName` function to query the winner and it was confirmed.** <br>
 
     result: The winning proposal is: arg2
 
