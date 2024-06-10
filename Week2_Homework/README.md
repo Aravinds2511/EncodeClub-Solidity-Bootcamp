@@ -2,7 +2,7 @@
 
 ## Contract Deployment and Interaction on Sepolia Testnet
 
-### 1 Contract creation - Deployed the contract on the sepolia testnet.
+### 1) Contract creation - Deployed the contract on the sepolia testnet.
 
 ```sh
 npx ts-node --files ./scripts/DeployWithViem.ts "arg1" "arg2" "arg3"
@@ -21,7 +21,7 @@ sepolia-etherscan contract link: [View on Sepolia Etherscan](https://sepolia.eth
 
 
 
-### 2 Tried to invoke giveRightToVote function to give right to address 0x48859b652d18afFA7Dbff03414DBD2FD4050d5Ec and it was confirmed with success.
+### 2) Tried to invoke giveRightToVote function to give right to address 0x48859b652d18afFA7Dbff03414DBD2FD4050d5Ec and it was confirmed with success.
 
 ```sh
 npx ts-node --files ./scripts/VotingRight.ts 0xb553C4DF4009a867216b45d6c5199010a7226bca 0x48859b652d18afFA7Dbff03414DBD2FD4050d5Ec
@@ -38,7 +38,7 @@ Transaction confirmed<br>
 
 
 
-### 3 Tried to invoke delegate function to delegate vote (of 0x48859b652d18afFA7Dbff03414DBD2FD4050d5Ec) to address 0x2d303fEDa3042363BC52e486F974601856DF30d9 and it was confirmed with success
+### 3) Tried to invoke delegate function to delegate vote (of 0x48859b652d18afFA7Dbff03414DBD2FD4050d5Ec) to address 0x2d303fEDa3042363BC52e486F974601856DF30d9 and it was confirmed with success
 
 ```sh
 npx ts-node --files ./scripts/DelegateVotes.ts 0xb553C4DF4009a867216b45d6c5199010a7226bca 0x2d303fEDa3042363BC52e486F974601856DF30d9
@@ -55,7 +55,7 @@ Transaction confirmed<br>
 
 
 
-### 4 Tried to invoke vote function to vote for the second proposal(argument: 1) and it was confirmed with success.
+### 4) Tried to invoke vote function to vote for the second proposal(argument: 1) and it was confirmed with success.
 
 ```sh
 npx ts-node --files ./scripts/CastVote.ts 0xb553C4DF4009a867216b45d6c5199010a7226bca 1
@@ -72,7 +72,7 @@ Transaction confirmed<br>
 
 
 
-### 5 Tried to invoke winnerName function to query the winner and it was confirmed.
+### 5) Tried to invoke winnerName function to query the winner and it was confirmed.
 
 ```sh
 npx ts-node --files ./scripts/QueryResults.ts 0xb553C4DF4009a867216b45d6c5199010a7226bca
