@@ -1,4 +1,4 @@
-# Project Report: MyToken and Tokenized Voting Deployment
+# Project Report: Tokenized Voting Contract
 
 ## Overview
 
